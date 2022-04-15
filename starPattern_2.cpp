@@ -9,12 +9,7 @@ int main()
             cout<<"  ";
         }
         for (int k = 1; k <= (2*i-1); k++) {
-            if(k==1 or k==(2*i-1)){
-                cout<<"* ";
-            }
-            else{
-                cout<<"  ";
-            }
+            cout<<"* ";
         }
         cout<<endl;
     }
@@ -24,12 +19,7 @@ for (int i = (N-1); i>0; i--) {
             cout<<"  ";
         }
         for (int k = (2*i-1); k >0 ; k--) {
-            if(k==1 or k==(2*i-1)){
-                cout<<"* ";
-            }
-            else{
-                cout<<"  ";
-            }
+            cout<<"* ";
         }
         cout<<endl;
     }
